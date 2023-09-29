@@ -1,0 +1,171 @@
+@media (min-width: 1024px){
+h1 {
+    font-size: 48px;
+    font-weight: 1100;
+}
+
+.presentation_profil {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+a:hover {
+    background-color: brown;
+}
+
+h2 {
+    color: white;
+    background-color: rgb(13,51,75);
+    border: solid black 4px;
+    border-radius: 30px;
+    width: 180px;
+    height: auto;
+    text-align: center;
+}
+
+.experience_pro {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.poste_occupe {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.lieu{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+img {
+    width: 100%;
+    transform: translateY(+8%);
+}
+
+.section_de_gauche {
+    background-color: rgb(13,51,75);
+    color: white;
+    width:35%;
+    padding-left: 1%
+}
+
+.box_photo{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: solid 5px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.box_logo{
+    width: 5%;
+    height: 5%;
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+.coordonnees{
+    font-size: 28px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 7%;
+    align-items: center;
+    justify-content: center;
+}
+
+.telephone{
+    display: flex;
+    flex-direction: row;
+    width: 50vw;
+    max-height: 30vh;
+    justify-content:left;
+    align-items: center;
+    padding-top: 2vh;
+}
+
+.interieur_telephone{
+    padding-left: 5%;
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+}
+h4{
+    margin:0px;
+}
+.interieur_telephone p, .interieur_telephone a{
+    margin: 0px;
+}
+
+.separation {
+    display: flex;
+}
+
+
+.langues{
+    display: flex;
+    flex-direction: row;
+    font-size: 24px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0px;
+}
+
+.section_de_droite{
+    width: 55%;
+    padding-left: 5%;
+    justify-content: center;
+    align-items: center;
+}
+
+.progress_bar{
+    background-color: white;
+    border-radius: 30px;
+    width: 40%;
+    height: 3vh;
+}
+
+.langues ul{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 20px;
+    flex-direction: row;
+}
+
+.langues li{
+    width: 35%;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteneur_progress_bar{
+    display: flex;
+}
+
+.conteneur_progress_bar ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 20px;
+}
+
+.conteneur_progress_bar li{
+    width: 30%;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+}
+
+
+.progress_bar::-moz-progress-bar { background: rgb(255, 234, 0); border-radius: 30px;}
+.progress_bar::-webkit-progress-value { background: red;border-radius: 30px }
+.progress_bar { color: red; border-radius: 30px} }

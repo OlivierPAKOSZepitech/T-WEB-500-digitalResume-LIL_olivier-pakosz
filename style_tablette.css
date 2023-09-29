@@ -1,8 +1,5 @@
-* {
-    margin-left: 0px;
-}
-
-h1 {
+@media (min-width: 767px) and (max-width: 1024px){
+    h1 {
     font-size: 48px;
     font-weight: 1100;
 }
@@ -10,6 +7,10 @@ h1 {
 .presentation_profil {
     font-size: 24px;
     font-weight: 500;
+}
+
+a:hover {
+    background-color: brown;
 }
 
 h2 {
@@ -39,14 +40,14 @@ h2 {
 
 img {
     width: 100%;
-    transform: translateY(-12%);
+    transform: translateY(+8%);
 }
 
 .section_de_gauche {
     background-color: rgb(13,51,75);
     color: white;
-    width:35%;
-    padding-left: 5%
+    width:100%;
+    padding-left: 1%
 }
 
 .box_photo{
@@ -63,8 +64,9 @@ img {
 }
 
 .box_logo{
-    width: 5%;
-    height: 5%;
+    width: 10%;
+    height: 10%;
+    max-width: 100%;
 }
 
 h3 {
@@ -74,26 +76,25 @@ h3 {
 .coordonnees{
     font-size: 28px;
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
+    padding-bottom: 7%;
+    align-items: center;
+    justify-content: center;
 }
 
 .telephone{
     display: flex;
     flex-direction: row;
-    width: 50vw;
-    max-height: 30vh;
     justify-content:left;
     align-items: center;
-    padding-top: 2vh;
+    width: 100%;
 }
 
 .interieur_telephone{
     padding-left: 5%;
-    display: flex;
-    flex-direction: column;
     font-size: 24px;
 }
+
 h4{
     margin:0px;
 }
@@ -102,8 +103,8 @@ h4{
 }
 
 .separation {
-    display: flex; 
-
+    display: flex;
+    flex-direction: column-reverse;
 }
 
 
@@ -111,37 +112,56 @@ h4{
     display: flex;
     flex-direction: row;
     font-size: 24px;
-}
-
-.Compétences{
-    font-size: 24px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0px;
 }
 
 .section_de_droite{
-    width: 55%;
-    padding-left: 10%;
+    width: 100%;
+    padding-left: 0%;
+    justify-content: center;
+    align-items: center;
 }
 
 .progress_bar{
     background-color: white;
-    border: solid 4px rgb(63, 147, 145);
     border-radius: 30px;
+    width: 40%;
 }
 
 .langues ul{
     display: flex;
     flex-wrap: wrap;
-    border: solid 4px red;
     width: 100%;
     gap: 20px;
 }
 
 .langues li{
-    border: solid 4px black;
     width: 35%;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteneur_progress_bar{
+    display: flex;
+}
+
+.conteneur_progress_bar ul{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 20px;
+}
+
+.conteneur_progress_bar li{
+    width: 45%;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
 }
 
 
-.progress_bar::-moz-progress-bar { background: rgba(8, 203, 89, 0.87); border-radius: 30px; }
+.progress_bar::-moz-progress-bar { background: rgb(255, 234, 0); border-radius: 30px;}
 .progress_bar::-webkit-progress-value { background: red;border-radius: 30px }
-.progress_bar { color: red; border-radius: 30px}
+.progress_bar { color: red; border-radius: 30px} }
